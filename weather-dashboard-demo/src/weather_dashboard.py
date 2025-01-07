@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 class WeatherDashboard:
     def __init__(self):
         self.api_key = os.getenv('OPENWEATHER_API_KEY')
-        self.bucket_name = os.getenv('weather346dashboard12')
+        self.bucket_name = os.getenv('AWS_BUCKET_NAME')
         self.s3_client = boto3.client('s3', region_name="us-east-1")
 
 
