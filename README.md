@@ -45,7 +45,7 @@ weather-dashboard/
 ## Setup Instructions
 1. Clone the repository:
 --bash
-git clone https://github.com/Cleo469/30-Days-Challenge--Day-1-Weather-Dahsboad.git
+git clone https://github.com/Cleo469/30-Days-Challenge--Day-1-Weather-Dashboard.git
 
 3. Install dependencies:
 bashCopypip install -r requirements.txt
